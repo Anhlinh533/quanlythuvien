@@ -22,3 +22,11 @@ skip_files:
 - ^(.*/)?.sh$
 - ^(.*/)?.md$
 - ^vendor
+env_variables:
+  # Replace USER, PASSWORD, DATABASE, and CONNECTION_NAME with the
+  # values obtained when configuring your Cloud SQL instance.
+  CLOUDSQL_USER: root
+  CLOUDSQL_DB: quanlyhthuvien
+  CLOUDSQL_PASSWORD:
+  CLOUDSQL_DSN: /cloudsql/thuvien-294903:asia-southeast1:thuvien-db
+# [END gae_cloudsql_mysql_env]
